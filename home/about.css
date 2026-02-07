@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #5A3D8E;
+    color: aliceblue;
+}
+.container {
+       width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+.navbar {
+    background-color: #5A3D8E;
+    padding: 0 0;
+    font-size: x-large;
+}
+.navcontent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img {
+    height: 100px;
+    border-radius: 15px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+    color: orangered;
+}
+
+
+.aboutusmainbody {
+    background: linear-gradient(
+        rgb(241, 68, 5),
+        #5A3D8E
+    ),
+    url("C:\Users\Ashish Vishwakarma\Desktop\VALUATION MASTERS_R2 - Google Chrome 20-01-2026 11_17_32.png") no-repeat center/cover;
+    padding: 70px 0;
+  
+    
+}
+.aboutusmainbodycontent {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.aboutusmainbodytext {
+    flex: 1;
+    color: #fff;
+    text-align: center;
+}
+.aboutusmainbodytext h1 {
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.aboutusmainbodytext p {
+    font-size: larger;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    
+    text-align: center;
+    
+}
+
+.aboutusleadershipteam {
+    background-color: #fff;
+    text-align: center;
+   
+}
+.aboutusewhole {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.leadershipteamtext h1 {
+    color: orangered;
+    padding: 40px;
+    
+
+}
+
+.leadershipteamtext p {
+    color: black;
+    max-width: 800px;
+    margin: 0 auto 50px;
+    color: #5A3D8E;
+    font-size: 16px;
+    line-height: 1.6
+}
+
+
+
+
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.team-card {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 24px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+}
+
+.team-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.team-card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: orangered;
+    margin-bottom: 6px;
+}
+
+
+
+
+.team-card p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #666;
+}
+
+
+
+
+
+.footer {
+  background: linear-gradient(135deg, #2f3b4b, #3c4b5f);
+  color: #dcdcdc;
+  font-family: Arial, sans-serif;
+}
+.footercontent {
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+.footercol h3 {
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.footercol p {
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.footercol ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footercol ul li {
+  margin-bottom: 12px;
+}
+
+.footercol ul li a {
+  text-decoration: none;
+  color: #dcdcdc;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footercol ul li a:hover {
+  color: orangered;
+}
+.icon {
+  margin-right: 8px;
+}
+
+.getintouch {
+  display: inline-block;
+  margin-top: 10px;
+  color: orangered;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.getintouch:hover {
+  text-decoration: underline;
+}
+
+
+.footerbottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.footerbottomlinks a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #dcdcdc;
+}
+
+.footerbottomlinks a:hover {
+  color: orangered;
+}
+
+@media (max-width: 900px) {
+  .footercontent {
+    grid-template-columns: 1fr;
+  }
+
+  .footerbottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .footerbottomlinks a {
+    margin: 0 10px;
+  }
+}
+

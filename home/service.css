@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: white;
+    color: aliceblue;
+}
+.container {
+       width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+.navbar {
+    background-color: #5A3D8E;
+    padding: 0 0;
+    font-size: x-large;
+}
+.navcontent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img {
+    height: 100px;
+    border-radius: 14px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+    color: orangered;
+}
+
+.headertext {
+    background: linear-gradient(
+        rgb(241, 68, 5),
+        #5A3D8E
+    ),
+    url("C:\Users\Ashish Vishwakarma\Desktop\VALUATION MASTERS_R2 - Google Chrome 20-01-2026 11_17_32.png") no-repeat center/cover;
+    padding: 60px 0px;
+    text-align: center;
+
+}
+.headertext h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    padding: 20px;
+    
+    color: #5A3D8E;
+}
+.headertext p {
+    max-width: 800px;
+    margin: auto;
+    font-size: 17px;
+    opacity: 0.95;
+    color: #fff;
+}
+        
+.servicescontainer {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.intro h2 {
+    font-size: 30px;
+    color: orangered;
+    margin-bottom: 15px;
+
+}
+
+
+
+.intro p {
+    max-width: 900px;
+    margin: auto;
+    font-size: 16px;
+    color: white;
+}
+
+.service-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 40px;
+
+}
+.service-card:hover {
+    transform: translate(-6px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+.service-card h3 {
+    color: orangered;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.service-card p {
+    color: #555;
+    font-size: 15.5px;
+}
+.service-card ul {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+.service-card ul li {
+    margin-top: 8px;
+    font-size: 14.4px;
+    color: #444;
+}
+
+
+
+.footer {
+  background: linear-gradient(135deg, #2f3b4b, #3c4b5f);
+  color: #dcdcdc;
+  font-family: Arial, sans-serif;
+}
+.footercontent {
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+.footercol h3 {
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.footercol p {
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.footercol ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footercol ul li {
+  margin-bottom: 12px;
+}
+
+.footercol ul li a {
+  text-decoration: none;
+  color: #dcdcdc;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footercol ul li a:hover {
+  color: orangered;
+}
+.icon {
+  margin-right: 8px;
+}
+
+.getintouch {
+  display: inline-block;
+  margin-top: 10px;
+  color: orangered;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.getintouch:hover {
+  text-decoration: underline;
+}
+
+
+.footerbottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.footerbottomlinks a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #dcdcdc;
+}
+
+.footerbottomlinks a:hover {
+  color: orangered;
+}
+
+@media (max-width: 900px) {
+  .footercontent {
+    grid-template-columns: 1fr;
+  }
+
+  .footerbottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .footerbottomlinks a {
+    margin: 0 10px;
+  }
+}

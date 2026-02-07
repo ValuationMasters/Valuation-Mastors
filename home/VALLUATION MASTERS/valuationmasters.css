@@ -1,0 +1,95 @@
+* {
+    font-size: larger;
+    margin: 0%;
+    padding: 10px;
+    text-align: initial;
+}
+
+
+
+#box {
+     color: #1e3a5f;
+}
+h2 {
+     color: #1e3a5f;
+}
+#box6 {
+     color: #1e3a5f;
+}
+#box4 {
+     color: #1e3a5f;
+     padding: 0%;
+     font-size: xx-large;
+}
+#box2 {
+     color: #1e3a5f;
+}
+#box3 {
+    color: orangered;
+    padding: 0%;
+    font-size: xx-large;
+}
+
+#mainbox {
+    background-color: orangered;
+}
+
+#table2 {
+    font-size: large;
+    align-self: center;
+    padding-left: 25%;
+    
+}
+a {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 15px0;
+    background: #c04a06;
+    color: aliceblue;
+    margin-top: 30px;
+}
+
+nav a {
+    padding: 5px;
+    color: #1e3a5f;
+    margin: o 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+nav p{
+    padding: 10px;
+    color: #c04a06;
+    margin: 0 20px;
+    text-decoration: solid;
+    font-family: 'Times New Roman', Times, serif;
+}
+button {
+    text-align: center;
+    color: #1e3a5f;
+    background: orangered;
+}
+
+.navbar {
+    background: orangered;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    padding: 0%;
+    margin: 0%;
+    margin: 0px;
+    margin-left:  10px;
+}
+
+#exp {
+    display: flexbox;
+}
+
